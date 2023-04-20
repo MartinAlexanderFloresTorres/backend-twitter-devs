@@ -6,7 +6,7 @@ const emailRecuperacion = async ({ email, nombre, token }) => {
   <div style="background: #0284c7; padding: 50px 10px;">
   <div style="max-width: 600px; margin: auto;">
   <div style="background: white; padding: 15px 30px 25px 30px; border-radius: 5px;">
-  <div style="text-align: center; margin: 20px 0 30px;"><span style="font-weight: bold; color: #0284c7; font-size: 30px; margin-left: 10px;">Restablecer password en D-twitter</span></div>
+  <div style="text-align: center; margin: 20px 0 30px;"><span style="font-weight: bold; color: #0284c7; font-size: 30px; margin-left: 10px;">Restablecer password en Twitter Devs</span></div>
   <p style="color: #757575; font-family: 'Open Sans', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; letter-spacing: normal;">Hola ${nombre}&nbsp;</p>
   <p style="color: #757575; font-family: 'Open Sans', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; letter-spacing: normal;">Has solicitado restablecer tu password en UpsTask</p>
   <p>Sigue el siguiente enlace para generar un nuevo password:&nbsp;</p>
@@ -18,7 +18,7 @@ const emailRecuperacion = async ({ email, nombre, token }) => {
   </div>
   <div style="background: #0284c7; color: white; font-size: 12px; padding: 30px 10px 30px 10px;">
   <div style="max-width: 600px; margin: auto; text-align: center;"><hr style="border: 1px solid #f2f2f2;">
-  <p style="font-style: italic; margin-bottom: 0;">Copyright &copy; 2022 D-twitter, All rights reserved.</p>
+  <p style="font-style: italic; margin-bottom: 0;">Copyright &copy; 2022 Twitter Devs, All rights reserved.</p>
   <p>Puedes visitar mi sitio web para mas informaci&oacute;n <a style="color: white;" href="http://whitecode.online" target="_blank" rel="noopener">whitecode</a></p>
   <hr style="border: 1px solid #f2f2f2;"></div>
   <div class="yj6qo">&nbsp;</div>
@@ -33,8 +33,8 @@ const emailRecuperacion = async ({ email, nombre, token }) => {
   const msg = {
     to: email,
     from: 'martinflorestorres21@gmail.com',
-    subject: 'Restablecer password - D-twitter.',
-    text: 'D-twitter',
+    subject: 'Restablecer password - Twitter Devs.',
+    text: 'Twitter Devs',
     html: htmlRestablecer
   }
   sgMail
